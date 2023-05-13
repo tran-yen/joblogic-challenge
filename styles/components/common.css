@@ -1,0 +1,15 @@
+.block-wrapper {
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1600px) {
+    .block-wrapper {
+      margin: 0 0 24px 0;
+    }
+}
+  
+.ant-row {
+    width: 100%;
+}

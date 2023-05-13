@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.main {
+  display: flex;
+  position: fixed;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  align-items: center;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}

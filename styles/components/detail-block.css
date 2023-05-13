@@ -1,0 +1,71 @@
+.detail-block {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 25rem 9rem 0;
+
+    --color-black:rgb(26, 29, 36);
+}
+
+.detail-block__avt {
+    width: 15rem;
+}
+
+.detail-block__avt .ant-image {
+    border: 1px solid white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.detail-block__info {
+    width: calc(100% - 150px);
+    padding-left: 5rem;
+}
+
+.detail-block__info-name {
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.detail-block__popularity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.detail-block__popularity > span {
+    font-size: 2.5rem;
+    width: 14rem;
+    line-height: 1;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.detail-block__popularity .ant-slider {
+    width: calc(100% - 140px);
+}
+
+.detail-block__popularity .ant-slider-rail {
+    background-color: var(--color-black);
+}
+
+.detail-block__popularity .ant-slider:hover .ant-slider-rail {
+    background-color: var(--color-black);
+}
+
+.detail-block__info-biography {
+    background-color: var(--color-black);
+    border-radius: 5px;
+    padding: 2.5rem;
+}
+
+.detail-block__info-biography p {
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
